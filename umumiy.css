@@ -1,0 +1,144 @@
+/* sayttimda eng kop ishlatadiganlarim  */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.main-button{
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 46px;
+    padding: 10px 25px;
+    background: linear-gradient(to right, #1345e6 0%, #ed239f 51%, #1345e6 100%);
+    border-radius: 17%;
+    border: none;
+    border: radius 5px;
+    text-transform: uppercase;
+}
+.section-header{
+    font-weight: 500;
+    color: #888;
+    letter-spacing: 2px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.section-title{
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    line-height: 52px;
+}
+.header{
+    position: fixed;
+    background-color: whitesmoke;
+    display:block;
+    width: 100%;
+    top: 0;
+    height: 70px;
+    z-index: 999;
+}
+
+/* header section */
+.header-img {
+    display: inline-block;
+}
+
+.header-img img {
+    width: 96px;
+}
+
+.navbar-list {
+    display: inline-block;
+}
+
+
+.navbar-list li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navbar-list a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #05364d;
+}
+
+.active {
+    color: #efb6df !important;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+/* footer-section*/
+.footer{
+    padding: 80px 50px;
+    margin-top: 50px;
+    background-color: #021017;
+    text-align: center;
+  }
+
+  .footer-logo{
+    text-align: center;
+  }
+
+  .footer-links{
+    list-style: none;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .footer-links li{
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  .footer-links a{
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .icons{
+    text-align: center;
+    margin-top: 20px;
+  }
+
+ .icons i{
+    color: #05364d;
+    font-size: 24px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 20px;
+    transition: all 0.3s ease-in;
+ }
+
+ .icons i:hover{
+    background: -webkit-linear-gradient(90deg, #1345e6 0%, #ed239f 100%);
+    color: #fff;
+ }
+
+
+@media(max-width:776px) {
+    .container{
+        width: 100%;
+    }
+
+    .navbar-list {
+        display: none;
+    }
+
+    .header{
+        height: 50px;
+    }
+
+    .footer-links{
+        display: none;
+    }
+ }
